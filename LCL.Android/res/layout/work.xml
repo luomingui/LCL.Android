@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_app_bgk"
+    android:scrollbarThumbVertical="@android:color/transparent"
+    android:scrollbars="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="317dp" >
+
+        <RelativeLayout
+            android:id="@+id/layout_total_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/patroladdrqueryborder" >
+
+            <RelativeLayout
+                android:id="@+id/layout_item1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp" >
+
+                <ImageView
+                    android:id="@+id/icon_intelligentRemindings"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="8dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_patroladdrquery" />
+
+                <TextView
+                    android:id="@+id/text_item1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/icon_intelligentRemindings"
+                    android:text="@string/works_1"
+                    android:textSize="@dimen/font_medium" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/divider_intelligentRemindings"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/layout_item1"
+                android:background="@color/color_divider" />
+
+            <RelativeLayout
+                android:id="@+id/layout_item2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider_intelligentRemindings"
+                android:padding="8dp" >
+
+                <ImageView
+                    android:id="@+id/icon_patrolWarnings"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="8dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_patroladdrquery" />
+
+                <TextView
+                    android:id="@+id/text_item2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/icon_patrolWarnings"
+                    android:text="@string/works_2"
+                    android:textSize="@dimen/font_medium" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/divider_patrolWarnings"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/layout_item2"
+                android:background="@color/color_divider" />
+
+            <RelativeLayout
+                android:id="@+id/layout_item3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider_patrolWarnings"
+                android:padding="8dp" >
+
+                <ImageView
+                    android:id="@+id/icon_patrolRecords"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="8dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_patroladdrquery" />
+
+                <TextView
+                    android:id="@+id/text_item3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/icon_patrolRecords"
+                    android:text="@string/works_3"
+                    android:textSize="@dimen/font_medium" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/divider_patrolRecords"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/layout_item3"
+                android:background="@color/color_divider" />
+
+            <RelativeLayout
+                android:id="@+id/layout_item4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider_patrolRecords"
+                android:padding="8dp" >
+
+                <ImageView
+                    android:id="@+id/icon_patrolHistory"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="8dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_patroladdrquery" />
+
+                <TextView
+                    android:id="@+id/text_item4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/icon_patrolHistory"
+                    android:text="@string/works_4"
+                    android:textSize="@dimen/font_medium" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_total_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_total_first"
+            android:layout_margin="8dp"
+            android:background="@drawable/patroladdrqueryborder" >
+
+            <RelativeLayout
+                android:id="@+id/layout_item5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp" >
+
+                <ImageView
+                    android:id="@+id/icon_patrolAddrQurey"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="8dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_patroladdrquery" />
+
+                <TextView
+                    android:id="@+id/text_item5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/icon_patrolAddrQurey"
+                    android:text="@string/works_5"
+                    android:textSize="@dimen/font_medium" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/divider_patrolAddrQurey"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/layout_item5"
+                android:background="@color/color_divider" />
+
+            <RelativeLayout
+                android:id="@+id/layout_item6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider_patrolAddrQurey"
+                android:padding="8dp" >
+
+                <ImageView
+                    android:id="@+id/icon_patrolPlansQurey"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="8dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/text_patrolPlansQurey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/icon_patrolPlansQurey"
+                    android:textSize="@dimen/font_medium" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/divider_patrolPlansQurey"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/layout_item6"
+                android:background="@color/color_divider" />
+
+            <RelativeLayout
+                android:id="@+id/layout_item7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider_patrolPlansQurey"
+                android:padding="8dp" >
+
+                <ImageView
+                    android:id="@+id/icon_patrolLowBatteryWarnings"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="8dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/text_patrolLowBatteryWarnings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/icon_patrolLowBatteryWarnings"
+                    android:textSize="@dimen/font_medium" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/divider_patrolLowBatteryWarnings"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/layout_item7"
+                android:background="@color/color_divider" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

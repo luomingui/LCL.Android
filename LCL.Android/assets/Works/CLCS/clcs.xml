@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" >
+
+  <title type="text" >
+    供热收费系统
+
+
+
+
+  </title>
+
+  <subtitle type="text" >
+    口号：向前看，跑步走...追求：代码之美，深入体会面向对象
+
+
+
+
+  </subtitle>
+
+  <id>
+    uuid:62a794d7-7d1d-43d2-95c8-e6a3705380f9;id=7877
+
+
+
+  </id>
+
+  <updated>
+    2014-06-27T09:21:00Z
+
+
+
+  </updated>
+
+  <author>
+
+    <name>
+      luomingui
+
+
+
+    </name>
+
+    <uri>
+      http://www.cnblogs.com/luomingui/
+
+
+
+
+    </uri>
+  </author>
+
+  <generator>
+    feed.cnblogs.com
+
+
+
+  </generator>
+
+  <entry>
+
+    <id>file:///android_asset/Works/CLCS/HeatIntro.html</id>
+
+    <title type="text" >
+      供热收费系统介绍
+
+
+
+    </title>
+
+    <summary type="text" >
+      针对供热企业普遍存在的客户资料混乱、用热状态和面积变更、陈欠应收不清、财务对账不准、政策条例灵活多变等现状，提出了完美的供热收费管理解决方案，从运营管理角度帮供热企业提升管理和效益。
+
+
+    </summary>
+
+    <published>
+      2013-11-06
+
+
+
+    </published>
+
+    <updated>
+      2013-11-06
+
+
+
+    </updated>
+
+    <link
+        href="HeatIntro.html"
+        rel="alternate"
+        type="text/html" />
+
+    <content type="html" >
+
+      <p>
+        《采暖营业厅收费系统》针对供热企业普遍存在的客户资料混乱、用热状态和面积变更、陈欠应收不清、财务对账不准、政策条例灵活多变等现状，提出了完美的供热收费管理解决方案，从运营管理角度帮供热企业提升管理和效益。
+        是国内同类产品中技术和理念最先进的B/S架构的供热收费管理软件，收费管理功能严谨实用，设计风格清新典雅，操作简捷高效。能辅助供热企业有条不紊地管理整个收费计划、执行、清欠稽查等过程。在稳定性、安全性、可维护性、可扩展性上优势突出，
+
+
+
+
+        <br />
+        真正做到：
+
+
+
+
+        <br />
+      </p>
+
+      <p>
+
+        <b>
+          管用
+
+
+
+        </b>
+        理解供热收费 懂得收费管理
+
+
+
+
+        <br />
+
+        <b>
+          便利
+
+
+
+        </b>
+        界面清新典雅 操作简洁高效
+
+
+
+
+        <br />
+
+        <b>
+          省心
+
+
+
+        </b>
+        管理流程严谨 费用统计精确
+
+
+
+
+        <br />
+
+        <b>
+          安全
+
+
+
+        </b>
+        U盾数据加密  详细日志管理
+
+
+
+
+        <br />
+      </p>
+    </content>
+  </entry>
+
+  <entry>
+
+    <id>file:///android_asset/Works/CLCS/HeatFlow.html</id>
+
+    <title type="text" >
+      供热收费流程
+
+
+
+    </title>
+
+    <summary type="text" >
+      规范供热收款行为，为供热公司收费业务提供指导，本规范使用于供热收费业务系统，当前，供热企业普遍存在的客户资料混乱、用热状态和面积变更、陈欠应收不清、财务对账不准
+
+
+    </summary>
+
+    <published>
+      2013-11-07
+
+
+
+    </published>
+
+    <updated>
+      2013-11-07
+
+
+
+    </updated>
+
+    <link
+        href="HeatFlow.html"
+        rel="alternate"
+        type="text/html" />
+
+    <content type="html" >
+      规范供热收款行为，为供热公司收费业务提供指导，本规范使用于供热收费业务系统，当前，供热企业普遍存在的客户资料混乱、用热状态和面积变更、陈欠应收不清、财务对账不准、政策条例灵活多变等现状；在收费管理上普遍处于手动、半自动记账状态；在和客户互动上只有电话、上门贴通知单等低效率、低回报的原始手段；在流程审批、部门协作上还处于打电话或拿单子签字流转的纸张办公方式，管理流程不规范等等。
+      如此种种管理模式，不经意间严重消耗了供热企业内部能量，影响了客户便利性和满意度，大大加重了供热运营成本和向客户收费的难度。
+      本系统归纳了北方各省市供热企业的供热收费信息化需求，为供热企业量身打造了整套供热收费管理流程一站式解决方案。
+
+
+
+
+    </content>
+  </entry>
+
+  <entry>
+
+    <id>file:///android_asset/Works/CLCS/HeatDb.html</id>
+
+    <title type="text" >
+      数据库设计说明书
+    </title>
+    <summary type="text" >
+      本数据库设计说明书是对供热收费系统数据库设计的定义，包括本系统数据逻辑结构设计、数据字典以及运行环境、安全保密设计等。
+    </summary>
+    <published>
+      2013-11-07
+    </published>
+
+    <updated>
+      2013-11-07
+    </updated>
+
+    <content type="html" >
+      本数据库设计说明书是对供热收费系统数据库设计的定义，包括本系统数据逻辑结构设计、数据字典以及运行环境、安全保密设计等。
+      本数据库设计说明书适合以下读者： 用户系统设计人员  质量控制人员  系统确认测试人员  系统维护人员
+      本数据库设计说明书是以下开发活动的依据之一：
+      系统详细设计 用户验收
+
+
+
+
+    </content>
+  </entry>
+
+  <entry>
+
+    <id>file:///android_asset/Works/CLCS/HeatScheme.html</id>
+
+    <title type="text" > 供热收费一站式解决方案</title>
+    <summary type="text" >
+      当前，供热企业普遍存在的客户资料混乱、用热状态和面积变更、陈欠应收不清、财务对账不准、政策条例灵活多变等现状；在收费管理上普遍处于手动、半自动记账状态；在和客户互动上只有电话、上门贴通知单等低效率、低回报的原始手段；在流程审批、部门协作上还处于打电话或拿单子签字流转的纸张办公方式，管理流程不规范。
+    </summary>
+    <published>
+      2013-11-07
+    </published>
+
+    <updated>
+      2013-11-07
+    </updated>
+    <link
+        href="HeatScheme.html"
+        rel="alternate"
+        type="text/html" />
+
+    <content type="html" >
+      当前，供热企业普遍存在的客户资料混乱、用热状态和面积变更、陈欠应收不清、财务对账不准、政策条例灵活多变等现状；在收费管理上普遍处于手动、半自动记账状态；在和客户互动上只有电话、上门贴通知单等低效率、低回报的原始手段；在流程审批、部门协作上还处于打电话或拿单子签字流转的纸张办公方式，管理流程不规范。
+    </content>
+  </entry>
+  <entry>
+
+    <id>file:///android_asset/Works/CLCS/HeatConstraint.html</id>
+
+    <title type="text" > 供热收费技术约束部分</title>
+    <summary type="text" >
+      为供热企业提供量身打造了整套供热收费管理手段。本文档为 系统的概要设计说明书，为采暖收费系统详细的设计的主要依据。读者群为项目组成员，使得项目组内成员对整个系统的主要功能以及其概要的实现手段有一个宏观的把握，是整个系统最雏形，同时也是最基本的引导性文档。
+    </summary>
+    <published>
+      2013-11-07
+    </published>
+
+    <updated>
+      2013-11-07
+    </updated>
+    <link
+        href="file:///android_asset/Works/CLCS/HeatConstraint.html"
+        rel="alternate"
+        type="text/html" />
+
+    <content type="html" >
+      为供热企业提供量身打造了整套供热收费管理手段。
+    </content>
+  </entry>
+  <entry>
+
+    <id> file:///android_asset/Works/CLCS/HeatUI.html</id>
+
+    <title type="text" > 供热收费主要操作界面说明</title>
+    <summary type="text" >
+      为供热企业提供量身打造了整套供热收费管理手段。本文档为 系统的概要设计说明书，为采暖收费系统详细的设计的主要依据。读者群为项目组成员，使得项目组内成员对整个系统的主要功能以及其概要的实现手段有一个宏观的把握，是整个系统最雏形，同时也是最基本的引导性文档。
+    </summary>
+    <published>
+      2013-11-07
+    </published>
+
+    <updated>
+      2013-11-07
+    </updated>
+    <link
+        href="file:///android_asset/Works/CLCS/HeatUI.html"
+        rel="alternate"
+        type="text/html" />
+
+    <content type="html" >
+      为供热企业提供量身打造了整套供热收费管理手段。本文档为 系统的概要设计说明书，为采暖收费系统详细的设计的主要依据。读者群为项目组成员，使得项目组内成员对整个系统的主要功能以及其概要的实现手段有一个宏观的把握，是整个系统最雏形，同时也是最基本的引导性文档。
+    </content>
+  </entry>
+</feed>

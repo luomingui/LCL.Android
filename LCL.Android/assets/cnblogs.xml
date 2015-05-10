@@ -1,0 +1,602 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" >
+
+    <title type="text" >
+博客园_永新程序员
+    </title>
+
+    <subtitle type="text" >
+口号：向前看，跑步走...追求：代码之美，深入体会面向对象
+    </subtitle>
+
+    <id>
+uuid:62a794d7-7d1d-43d2-95c8-e6a3705380f9;id=7877
+    </id>
+
+    <updated>
+2014-06-27T09:21:00Z
+    </updated>
+
+    <author>
+
+        <name>
+luomingui
+        </name>
+
+        <uri>
+http://www.cnblogs.com/luomingui/
+        </uri>
+    </author>
+
+    <generator>
+feed.cnblogs.com
+    </generator>
+
+    <entry>
+
+        <id>
+http://www.cnblogs.com/luomingui/p/3410486.html
+        </id>
+
+        <title type="text" >
+C# WinForm 技巧十: 开发工具 - luomingui
+        </title>
+
+        <summary type="text" >
+一、摘要 为了开发效率就应该为这个框架开发一个配套工具。来生成固定格式的代码。工具界面如下：
+			二、数据库整理篇 添加表主键 修改表说明 修改表字段说明 生成数据库文档 导出数据库里相同的字段 数据库里相同的字段描述一样
+			三、根据模板生成代码 ...
+        </summary>
+
+        <published>
+2013-11-06T06:26:00Z
+        </published>
+
+        <updated>
+2013-11-06T06:26:00Z
+        </updated>
+
+        <author>
+
+            <name>
+luomingui
+            </name>
+
+            <uri>
+http://www.cnblogs.com/luomingui/
+            </uri>
+        </author>
+
+        <link
+            href="http://www.cnblogs.com/luomingui/p/3410486.html"
+            rel="alternate" />
+
+        <link
+            href="http://www.cnblogs.com/luomingui/p/3410486.html"
+            rel="alternate"
+            type="text/html" />
+
+        <content type="html" >
+一、摘要 为了开发效率就应该为这个框架开发一个配套工具。来生成固定格式的代码。工具界面如下：
+			二、数据库整理篇 添加表主键 修改表说明 修改表字段说明 生成数据库文档 导出数据库里相同的字段 数据库里相同的字段描述一样
+			三、根据模板生成代码 ...&lt;img
+			src="http://counter.cnblogs.com/blog/rss/3410486" width="1"
+			height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a
+			href="http://www.cnblogs.com/luomingui/p/3410486.html"
+			target="_blank"&gt;C# WinForm 技巧十: 开发工具&lt;/a&gt;，转载请注明。&lt;/p&gt;
+        </content>
+    </entry>
+
+    <entry>
+
+        <id>
+http://www.cnblogs.com/luomingui/p/3362813.html
+        </id>
+
+        <title type="text" >
+EF 5.0 帮助类 - luomingui
+        </title>
+
+        <summary type="text" >
+EF 5.0 帮助类 加入命名空间： using System;using
+			System.Data;using System.Data.Entity;using
+			System.Data.Entity.Infrastructure;using System.Linq;接口： public ...
+        </summary>
+
+        <published>
+2013-10-11T02:21:00Z
+        </published>
+
+        <updated>
+2013-10-11T02:21:00Z
+        </updated>
+
+        <author>
+
+            <name>
+luomingui
+            </name>
+
+            <uri>
+http://www.cnblogs.com/luomingui/
+            </uri>
+        </author>
+
+        <link
+            href="http://www.cnblogs.com/luomingui/p/3362813.html"
+            rel="alternate" />
+
+        <link
+            href="http://www.cnblogs.com/luomingui/p/3362813.html"
+            rel="alternate"
+            type="text/html" />
+
+        <content type="html" >
+EF 5.0 帮助类 加入命名空间： using System;using
+			System.Data;using System.Data.Entity;using
+			System.Data.Entity.Infrastructure;using System.Linq;接口： public
+			...&lt;img src="http://counter.cnblogs.com/blog/rss/3362813"
+			width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a
+			href="http://www.cnblogs.com/luomingui/p/3362813.html"
+			target="_blank"&gt;EF 5.0 帮助类&lt;/a&gt;，转载请注明。&lt;/p&gt;
+        </content>
+    </entry>
+
+    <entry>
+
+        <id>
+http://www.cnblogs.com/luomingui/p/3269958.html
+        </id>
+
+        <title type="text" >
+Modbus通讯协议学习 - 串口调试 - luomingui
+        </title>
+
+        <summary type="text" >
+概述我们在做任何事情之前都需要获取很多调试步骤：1：485转换器连接硬件2：485转换器上的USB接口连接电脑。3：打开设备管理器
+			-&gt;查看端口4：打开串口调试工具，在串口配置的地方修改串口与设备管理器端口一一对应。5：了解硬件协议，给硬件发送命令，验证命令的正确性。准备工作准备工作我们应该要有一个工具，一个支持485转换的硬件。一个串口调试助手.根据调试工具可以看出，硬件协议包含两个部分《1：串口相关配置参数。2：发送的硬件命令开始调试工作比如有协议如下：1、
+			发送：FE FE FE FE 68 20 57 29 34 32 00 8F 41 20 04 A0 17 00 55 6E
+        </summary>
+
+        <published>
+2013-10-11T02:13:00Z
+        </published>
+
+        <updated>
+2013-10-11T02:13:00Z
+        </updated>
+
+        <author>
+
+            <name>
+luomingui
+            </name>
+
+            <uri>
+http://www.cnblogs.com/luomingui/
+            </uri>
+        </author>
+
+        <link
+            href="http://www.cnblogs.com/luomingui/p/3269958.html"
+            rel="alternate" />
+
+        <link
+            href="http://www.cnblogs.com/luomingui/p/3269958.html"
+            rel="alternate"
+            type="text/html" />
+
+        <content type="html" >
+概述我们在做任何事情之前都需要获取很多调试步骤：1：485转换器连接硬件2：485转换器上的USB接口连接电脑。3：打开设备管理器
+			-&amp;gt;查看端口4：打开串口调试工具，在串口配置的地方修改串口与设备管理器端口一一对应。5：了解硬件协议，给硬件发送命令，验证命令的正确性。准备工作准备工作我们应该要有一个工具，一个支持485转换的硬件。一个串口调试助手.根据调试工具可以看出，硬件协议包含两个部分《1：串口相关配置参数。2：发送的硬件命令开始调试工作比如有协议如下：1、
+			发送：FE FE FE FE 68 20 57 29 34 32 00 8F 41 20 04 A0 17 00 55 6E
+			&lt;img src="http://counter.cnblogs.com/blog/rss/3269958" width="1"
+			height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a
+			href="http://www.cnblogs.com/luomingui/p/3269958.html"
+			target="_blank"&gt;Modbus通讯协议学习 - 串口调试&lt;/a&gt;，转载请注明。&lt;/p&gt;
+        </content>
+    </entry>
+
+    <entry>
+
+        <id>
+http://www.cnblogs.com/luomingui/p/3329763.html
+        </id>
+
+        <title type="text" >
+C# WinForm
+			技巧八：界面开发之“WeifenLuo.WinFormsUI.Docking+OutLookBar” 使用 - luomingui
+        </title>
+
+        <summary type="text" >
+概述
+			最近几天一直在关注WinFrom方面的文章主要还是园子里伍华聪的博客，在看看我们自己写的项目差不忍赌啊，有想着提炼一下项目的公共部分，公共部分有分为
+			界面，类库两方面，今天主要是把界面也先提炼提炼。 WeifenLuo.WinFormsUI.Docking +
+			OutLookBar结合使用的效果图 WeifenLuo....
+        </summary>
+
+        <published>
+2013-09-19T07:39:00Z
+        </published>
+
+        <updated>
+2013-09-19T07:39:00Z
+        </updated>
+
+        <author>
+
+            <name>
+luomingui
+            </name>
+
+            <uri>
+http://www.cnblogs.com/luomingui/
+            </uri>
+        </author>
+
+        <link
+            href="http://www.cnblogs.com/luomingui/p/3329763.html"
+            rel="alternate" />
+
+        <link
+            href="http://www.cnblogs.com/luomingui/p/3329763.html"
+            rel="alternate"
+            type="text/html" />
+
+        <content type="html" >
+概述
+			最近几天一直在关注WinFrom方面的文章主要还是园子里伍华聪的博客，在看看我们自己写的项目差不忍赌啊，有想着提炼一下项目的公共部分，公共部分有分为
+			界面，类库两方面，今天主要是把界面也先提炼提炼。 WeifenLuo.WinFormsUI.Docking +
+			OutLookBar结合使用的效果图 WeifenLuo....&lt;img
+			src="http://counter.cnblogs.com/blog/rss/3329763" width="1"
+			height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a
+			href="http://www.cnblogs.com/luomingui/p/3329763.html"
+			target="_blank"&gt;C# WinForm
+			技巧八：界面开发之&amp;ldquo;WeifenLuo.WinFormsUI.Docking+OutLookBar&amp;rdquo;
+			使用&lt;/a&gt;，转载请注明。&lt;/p&gt;
+        </content>
+    </entry>
+
+    <entry>
+
+        <id>
+http://www.cnblogs.com/luomingui/p/3197381.html
+        </id>
+
+        <title type="text" >
+HL AsySocket 服务开发框架 - 一般性测试1 - luomingui
+        </title>
+
+        <summary type="text" >
+一 概述 Socket服务器性能要好就要经过无数次的测试，来保证，以下是记录一次的测试经过。
+			机器配置：Inter(R) Core(TM) i3-2310m CPU 2.10GHz RAM 6.00GB,64位系统
+			今天的测试主要是5个客服端连接和连续发送2000数据包，每个包大概在55192大小。 ...
+        </summary>
+
+        <published>
+2013-07-18T00:44:00Z
+        </published>
+
+        <updated>
+2013-07-18T00:44:00Z
+        </updated>
+
+        <author>
+
+            <name>
+luomingui
+            </name>
+
+            <uri>
+http://www.cnblogs.com/luomingui/
+            </uri>
+        </author>
+
+        <link
+            href="http://www.cnblogs.com/luomingui/p/3197381.html"
+            rel="alternate" />
+
+        <link
+            href="http://www.cnblogs.com/luomingui/p/3197381.html"
+            rel="alternate"
+            type="text/html" />
+
+        <content type="html" >
+一 概述 Socket服务器性能要好就要经过无数次的测试，来保证，以下是记录一次的测试经过。
+			机器配置：Inter(R) Core(TM) i3-2310m CPU 2.10GHz RAM 6.00GB,64位系统
+			今天的测试主要是5个客服端连接和连续发送2000数据包，每个包大概在55192大小。 ...&lt;img
+			src="http://counter.cnblogs.com/blog/rss/3197381" width="1"
+			height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a
+			href="http://www.cnblogs.com/luomingui/p/3197381.html"
+			target="_blank"&gt;HL AsySocket 服务开发框架 -
+			一般性测试1&lt;/a&gt;，转载请注明。&lt;/p&gt;
+        </content>
+    </entry>
+
+    <entry>
+
+        <id>
+http://www.cnblogs.com/luomingui/p/3191025.html
+        </id>
+
+        <title type="text" >
+HL AsySocket 服务开发框架 - 业务逻辑层 - luomingui
+        </title>
+
+        <summary type="text" >
+一
+			概述Socket服务只是提供一个网络传输服务。业务逻辑层在整体架构中的位置在那里呢，如图：网络层将解包后的消息包抛至业务逻辑层，业务逻辑层收到消息包后，解析消息类型，然后转入相应的处理流程处理网络层应提供发送消息的接口供业务逻辑层调用，因为网络层不会主动发送消息，发送消息的操作是由业务逻辑层来控制的，所以业务逻辑层应根据具体的业务应用，封装不同功能的发送消息的方法。二
+			设计那我们有应该如果来设计业务逻辑层呢，尽量与Socket解耦合以达到相对的独立性。根据上面的图来说是根据业务类型来处理不同的业务逻辑，并返回给客服端提示结果。我们先来设计一个通用的业务接口，如下：public
+			interf
+        </summary>
+
+        <published>
+2013-07-15T05:52:00Z
+        </published>
+
+        <updated>
+2013-07-15T05:52:00Z
+        </updated>
+
+        <author>
+
+            <name>
+luomingui
+            </name>
+
+            <uri>
+http://www.cnblogs.com/luomingui/
+            </uri>
+        </author>
+
+        <link
+            href="http://www.cnblogs.com/luomingui/p/3191025.html"
+            rel="alternate" />
+
+        <link
+            href="http://www.cnblogs.com/luomingui/p/3191025.html"
+            rel="alternate"
+            type="text/html" />
+
+        <content type="html" >
+一
+			概述Socket服务只是提供一个网络传输服务。业务逻辑层在整体架构中的位置在那里呢，如图：网络层将解包后的消息包抛至业务逻辑层，业务逻辑层收到消息包后，解析消息类型，然后转入相应的处理流程处理网络层应提供发送消息的接口供业务逻辑层调用，因为网络层不会主动发送消息，发送消息的操作是由业务逻辑层来控制的，所以业务逻辑层应根据具体的业务应用，封装不同功能的发送消息的方法。二
+			设计那我们有应该如果来设计业务逻辑层呢，尽量与Socket解耦合以达到相对的独立性。根据上面的图来说是根据业务类型来处理不同的业务逻辑，并返回给客服端提示结果。我们先来设计一个通用的业务接口，如下：public
+			interf&lt;img src="http://counter.cnblogs.com/blog/rss/3191025"
+			width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a
+			href="http://www.cnblogs.com/luomingui/p/3191025.html"
+			target="_blank"&gt;HL AsySocket 服务开发框架 -
+			业务逻辑层&lt;/a&gt;，转载请注明。&lt;/p&gt;
+        </content>
+    </entry>
+
+    <entry>
+
+        <id>
+http://www.cnblogs.com/luomingui/p/3185478.html
+        </id>
+
+        <title type="text" >
+HL AsySocket 服务开发框架 - 总体思路与架构 - luomingui
+        </title>
+
+        <summary type="text" >
+一 背景
+			最近在园子了浏览了几篇有关Socket文章，得到了一些启发萌生了想要重构公司在2000年用.NET Framework 2.0 与
+			Visual Studio
+			2005开发的AsySocket项目为了希望能够尽快的了解公司这个项目，Google了很多国内外的网站让我对Socket有了更深层次的了解也知道Socket从2.0到4.0发生许多变化，比如在2.0中没有SocketAsyncEventArgs类，大家在园子里把这个类说的这么邪乎，小弟不才有想尝试着使用.NET
+			Framework 4.0 与 Visual Studio 2010也开发一个可扩展多线程异步Socket服务器..
+        </summary>
+
+        <published>
+2013-07-12T00:34:00Z
+        </published>
+
+        <updated>
+2013-07-12T00:34:00Z
+        </updated>
+
+        <author>
+
+            <name>
+luomingui
+            </name>
+
+            <uri>
+http://www.cnblogs.com/luomingui/
+            </uri>
+        </author>
+
+        <link
+            href="http://www.cnblogs.com/luomingui/p/3185478.html"
+            rel="alternate" />
+
+        <link
+            href="http://www.cnblogs.com/luomingui/p/3185478.html"
+            rel="alternate"
+            type="text/html" />
+
+        <content type="html" >
+一 背景
+			最近在园子了浏览了几篇有关Socket文章，得到了一些启发萌生了想要重构公司在2000年用.NET Framework 2.0 与
+			Visual Studio
+			2005开发的AsySocket项目为了希望能够尽快的了解公司这个项目，Google了很多国内外的网站让我对Socket有了更深层次的了解也知道Socket从2.0到4.0发生许多变化，比如在2.0中没有SocketAsyncEventArgs类，大家在园子里把这个类说的这么邪乎，小弟不才有想尝试着使用.NET
+			Framework 4.0 与 Visual Studio 2010也开发一个可扩展多线程异步Socket服务器..&lt;img
+			src="http://counter.cnblogs.com/blog/rss/3185478" width="1"
+			height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a
+			href="http://www.cnblogs.com/luomingui/p/3185478.html"
+			target="_blank"&gt;HL AsySocket 服务开发框架 -
+			总体思路与架构&lt;/a&gt;，转载请注明。&lt;/p&gt;
+        </content>
+    </entry>
+
+    <entry>
+
+        <id>
+http://www.cnblogs.com/luomingui/archive/2013/06/14/Modbus.html
+        </id>
+
+        <title type="text" >
+Modbus通讯协议学习 - 认识篇 - luomingui
+        </title>
+
+        <summary type="text" >
+什么是Modbus？ Modbus
+			协议是应用于电子控制器上的一种通用语言。通过此协议，控制器相互之间、控制器经由网络（例如以太网）和其它设备之间可以通信。Modbus
+			协议定义了一个控制器能认识使用的消息结构,而不管它们是经过何种网络进行通信的。它描述了一控制器请求访问其它设备的过程，如果回应来自其它设备的请求，以及怎样侦测错误并记录。它制定了消息域格局和内容的公共格式。
+			...
+        </summary>
+
+        <published>
+2013-06-14T05:36:00Z
+        </published>
+
+        <updated>
+2013-06-14T05:36:00Z
+        </updated>
+
+        <author>
+
+            <name>
+luomingui
+            </name>
+
+            <uri>
+http://www.cnblogs.com/luomingui/
+            </uri>
+        </author>
+
+        <link
+            href="http://www.cnblogs.com/luomingui/archive/2013/06/14/Modbus.html"
+            rel="alternate" />
+
+        <link
+            href="http://www.cnblogs.com/luomingui/archive/2013/06/14/Modbus.html"
+            rel="alternate"
+            type="text/html" />
+
+        <content type="html" >
+什么是Modbus？ Modbus
+			协议是应用于电子控制器上的一种通用语言。通过此协议，控制器相互之间、控制器经由网络（例如以太网）和其它设备之间可以通信。Modbus
+			协议定义了一个控制器能认识使用的消息结构,而不管它们是经过何种网络进行通信的。它描述了一控制器请求访问其它设备的过程，如果回应来自其它设备的请求，以及怎样侦测错误并记录。它制定了消息域格局和内容的公共格式。
+			...&lt;img src="http://counter.cnblogs.com/blog/rss/3135466"
+			width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a
+			href="http://www.cnblogs.com/luomingui/archive/2013/06/14/Modbus.html"
+			target="_blank"&gt;Modbus通讯协议学习 - 认识篇&lt;/a&gt;，转载请注明。&lt;/p&gt;
+        </content>
+    </entry>
+
+    <entry>
+
+        <id>
+http://www.cnblogs.com/luomingui/archive/2013/05/06/3062212.html
+        </id>
+
+        <title type="text" >
+OEA框架学习：元数据设计 - luomingui
+        </title>
+
+        <summary type="text" >
+一、摘要
+			目前的框架设计中，引入元数据(metadata)已经是必然的事情，元数据设计原则，EF元数据设计初了MSDN上的还有胡分享的EntityFramework
+			元数据 设计分析文章写的不错。目前行业提出的DSL(domain specific
+			language)语言，更是把元数据话费得淋漓尽致啊。那OEA里面的元数据是什么样子的呢？！ 二、OEA元数据架构图...
+        </summary>
+
+        <published>
+2013-05-06T01:25:00Z
+        </published>
+
+        <updated>
+2013-05-06T01:25:00Z
+        </updated>
+
+        <author>
+
+            <name>
+luomingui
+            </name>
+
+            <uri>
+http://www.cnblogs.com/luomingui/
+            </uri>
+        </author>
+
+        <link
+            href="http://www.cnblogs.com/luomingui/archive/2013/05/06/3062212.html"
+            rel="alternate" />
+
+        <link
+            href="http://www.cnblogs.com/luomingui/archive/2013/05/06/3062212.html"
+            rel="alternate"
+            type="text/html" />
+
+        <content type="html" >
+一、摘要
+			目前的框架设计中，引入元数据(metadata)已经是必然的事情，元数据设计原则，EF元数据设计初了MSDN上的还有胡分享的EntityFramework
+			元数据 设计分析文章写的不错。目前行业提出的DSL(domain specific
+			language)语言，更是把元数据话费得淋漓尽致啊。那OEA里面的元数据是什么样子的呢？！ 二、OEA元数据架构图...&lt;img
+			src="http://counter.cnblogs.com/blog/rss/3062212" width="1"
+			height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a
+			href="http://www.cnblogs.com/luomingui/archive/2013/05/06/3062212.html"
+			target="_blank"&gt;OEA框架学习：元数据设计&lt;/a&gt;，转载请注明。&lt;/p&gt;
+        </content>
+    </entry>
+
+    <entry>
+
+        <id>
+http://www.cnblogs.com/luomingui/archive/2013/02/01/2888582.html
+        </id>
+
+        <title type="text" >
+C# WinForm 技巧七：读取进程获取进程信息 - luomingui
+        </title>
+
+        <summary type="text" >
+自动配置软件
+			主软件已经在电脑上运行，我现在要启动相关的小工具，有要配置相同的软件参数，如数据库连接配置，体麻烦就想让小工具自动读取主软件上的配置信息到小工具上。
+			需求： 变化点： 1：主软件没有运行，小工具照样可以运行，那就需要小工具可以手动配置 步骤： 1：读取进程 2：获取进程位置 ...
+        </summary>
+
+        <published>
+2013-02-01T02:19:00Z
+        </published>
+
+        <updated>
+2013-02-01T02:19:00Z
+        </updated>
+
+        <author>
+
+            <name>
+luomingui
+            </name>
+
+            <uri>
+http://www.cnblogs.com/luomingui/
+            </uri>
+        </author>
+
+        <link
+            href="http://www.cnblogs.com/luomingui/archive/2013/02/01/2888582.html"
+            rel="alternate" />
+
+        <link
+            href="http://www.cnblogs.com/luomingui/archive/2013/02/01/2888582.html"
+            rel="alternate"
+            type="text/html" />
+
+        <content type="html" >
+自动配置软件
+			主软件已经在电脑上运行，我现在要启动相关的小工具，有要配置相同的软件参数，如数据库连接配置，体麻烦就想让小工具自动读取主软件上的配置信息到小工具上。
+			需求： 变化点： 1：主软件没有运行，小工具照样可以运行，那就需要小工具可以手动配置 步骤： 1：读取进程 2：获取进程位置
+			...&lt;img src="http://counter.cnblogs.com/blog/rss/2888582"
+			width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a
+			href="http://www.cnblogs.com/luomingui/archive/2013/02/01/2888582.html"
+			target="_blank"&gt;C# WinForm
+			技巧七：读取进程获取进程信息&lt;/a&gt;，转载请注明。&lt;/p&gt;
+        </content>
+    </entry>
+
+</feed>

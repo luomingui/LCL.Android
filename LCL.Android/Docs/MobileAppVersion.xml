@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<agileluo>
+    <update>
+        <wp7>1.4</wp7>
+        <ios>1.5.5</ios>
+        <android>
+            <versionCode>1</versionCode>
+            <versionName>1.1.1</versionName>
+            <downloadUrl>http://files.cnblogs.com/luomingui/LCL.Android.apk</downloadUrl>
+            <updateLog>
+<![CDATA[版本信息：
+老罗Android之旅 for Android v1.1.1
+
+版本更新日志：
+* 文章分享（腾讯微博，新浪微博，截图分享）
+* 文章图片放大缩小
+* 在线文章优化
+* 重构产品界面
+
+安装包大小：2.4MB]]>
+            </updateLog>
+            <coverUpdate>false</coverUpdate>
+            <coverStartDate>2014-03-05</coverStartDate>
+            <coverEndDate>2014-03-05</coverEndDate>
+            <coverURL>
+            </coverURL>
+        </android>
+    </update>
+</agileluo>

@@ -1,0 +1,59 @@
+<html>
+<head><title>Super Framework</title>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK" /> 
+<style type="text/css"> 
+	p{text-align:center;font-weight:bold;}
+	div {line-height:24px;}
+</style>
+</head>
+<body>
+<p>框架介绍</p> 
+   <div>
+	<a name="1_ch"></a>
+&nbsp;&nbsp;&nbsp;&nbsp; LCLFramework是一款基于Microsoft .NET的面向领域驱动的企业级应用程序开发框架，它适用于以领域模型为核心的企业级系统的开发和集成。
+LCLFramework不仅能够很好地支持经典的分层架构，而且还能支持基于事件驱动的命令查询职责分离（Command-Query Responsibility Segregation，
+ CQRS）架构。<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;随着软件系统日趋复杂，构建一套可用的、稳定的、可扩展的、安全的以及高效的系统变得越来越困难。为了解决这样的困难，
+人们在多年的软件开发过程中积累了不少经验，由其是在大型复杂软件系统方面，面向对象的分析和设计（OOAD）占据着主导地位。由此，Eric Evans将这
+些经验整理成文，于2004年出版了《领域驱动设计：软件核心复杂性应对之道》一书，世界顶级软件架构大师Martin Fowler也参与了该书的编撰工作。<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;领域驱动设计并不是一种特定的模式，也不是一种具体的方法论，它所涵盖的范围相当广泛，比如，面向对象分析与设计的基本原则、测试驱动开发、
+ 行为驱动开发、持续集成、敏捷开发、防腐层、界定上下文、分层体系结构模式、读写分离体系结构模式、事件驱动体系结构模式等等，都属于领域驱动设计的讨论范畴。总而言
+之，所有以领域模型为核心的开发方法、过程与技术，均可认为是领域驱动的。<br/><br/>
+由此可见，面向领域驱动设计的开发框架，对敏捷项目的实践也有着很大的帮助，主要表现在以下几个方面：<br/>
+框架在技术上为软件系统提供了完整的模式实践，<br/>
+框架为团队提供了合理可行的软件开发过程模式，<br/>
+框架的应用大大提高了团队的开发效率，团队只需要关注与领域相关的业务实现，而无需关注具体的技术实现<br/>
+框架的应用大大降低了出现缺陷（Bug）的几率，因为大多数支撑业务系统的代码都经过了严格的测试和实战的考验<br/>
+框架的应用还为软件系统的整合与集成带来了便捷<br/><br/>
+LCLFramework就是一套在.NET下支持面向领域驱动的软件系统开发框架，它具有以下这些特点：
+<br/>
+1.基于NuGet Package Manager提供方便快捷的类库包发布方式，开发人员无需关心程序集之间的版本依赖关系<br/>
+2.提供对领域驱动设计中基本元素的封装。比如：实体、聚合根、领域仓储等概念进行了有效的封装和实现<br/>
+3.提供对现有流行框架的支持。比如：能够很好地支持ASP.NET MVC以及ASP.NET Web API的使用和开发<br/>
+4.提供基于Microsoft Patterns & Practices Unity的IoC容器和服务定位器（Service Locator）的实现。不仅如此，开发人员还能根据项目的实际需求对IoC容器和服务定位器进行扩展，使其能够支持更多的Dependency Injection（DI）框架。比如可以很方便地扩展LCLFramework，使其能够支持基于StructureMap、Ninject等流行的DI框架<br/>
+5.提供基于Entity Framework的仓储实现。在应用程序中使用这种仓储，也就基本涵盖了所有面向关系型数据库的对象持久化方案。不仅如此，开发人员还能根据项目的实际需求，对仓储实现进行扩展，以支持更多种类的对象持久化机制<br/>
+<br/>
+开源地址：https://github.com/luomingui<br/>
+源码下载：代码对应的 SVN 地址：https://github.com/LCLFramework/LCLFramework.git（没有帐号密码的可以把 https 换为 http 即可下载。）。暂时没有提供完整压缩包的下载，之后比较稳定能达到 Alpha 阶段时，我们会再提供完整压缩包的下载。
+<br/>
+帮助手册：由于时间及人员的关系，现在还没有发布可用的使用说明。我之后会陆续添加一些 LCL 的使用说明文档。大家可以关注我的博客。
+<br/>
+QQ交流群：由于暂时没有完整的帮助手册，所以新开通了一个 QQ 群，方便试用的朋友在里面进行交流。群号：259864552。
+<br/>
+要使用LCLF进行应用程序开发，您需要安装Visual Studio 2012以上的版本（以下简称Visual Studio 2012+），从LCL 1.0开始，需要Micrsoft.NET Framework 4.5的支持，因此强烈建议使用Visual Studio 2012+进行开发。
+<br/>
+使用NuGet来管理LCL的程序集引用的另一个好处是，使得今后LCL类库包的发布变得非常简单。
+<br/>
+
+<br/><a href="http://www.cnblogs.com/luomingui/p/4117546.html">LCLFramework框架 1.1 Pre-Alpha 源码公布</a><br/>
+<a href="#">LCLFramework到底是什么？</a><br/>
+<a href="#">在Linux系统（CentOS 6.3）上成功编译LCLFramework框架</a><br/>
+<a href="http://www.cnblogs.com/luomingui/p/4118162.html">LCLFramework框架之Service模式</a><br/>
+<a href="http://www.cnblogs.com/luomingui/p/4117575.html">LCLFramework框架之IOC</a><br/>
+<a href="http://www.cnblogs.com/luomingui/p/4117558.html">LCLFramework框架之Plugin模式</a><br/>
+<a href="http://www.cnblogs.com/luomingui/p/4117543.html">LCLFramework框架之Repository模式</a><br/>
+
+</div>
+<br/><br/><br/>
+</body>
+</html>

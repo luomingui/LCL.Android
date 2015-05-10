@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- app -->
+    <string name="app_name">永新科技</string>
+    <string name="app_description">永新科技是一个面向软件维护服务，主要解决中小型企业技术难题，让企业有很多的精力和时间去经营和开拓市场。 </string>
+    <string name="app_author">罗敏贵</string>
+    <string name="app_token">Luomg</string>
+    <!-- main 布局文件_名字 -->
+    <string name="main_blogPage">博客</string>
+    <string name="main_framePage">架构</string>
+    <string name="main_worksPage">产品</string>
+    <string name="main_casePage">案例</string>
+    <string name="main_servePage">服务</string>
+    <string name="main_aboutPage">关于</string>
+
+    <!-- list_row -->
+    <string name="list_row_content">国家主席习近平4日在韩国国在韩国国立首尔大学发表题为共创中在韩国国国国国国国国国国
+        立首尔大学发表题为共创中在韩国国立首尔大学发表题为共创中在韩国国立首尔大学发表题为共创中在韩国国立首尔大学发表国国国
+        题为共创中在韩国国立首尔大学发表题为共创中在韩国国立首尔大学发表题为共创中在韩国国立首尔大学发表题为共创中在韩国国国
+        立首尔大学发表题为共创中在韩国国立首尔大学发表题为共创中在韩国国立首尔大学发表题为共创中在韩国国立首尔大学发表题为共
+        创中在韩国国立首尔大学发表题为共创中在韩国国立首尔大学发表题为共创中立首尔大学发表题为共创中韩合作美好未来同襄亚洲振
+        兴繁荣伟业未来同襄亚洲振兴繁荣伟业未来同襄亚洲振兴繁荣伟业未来同襄亚洲振兴繁荣伟业未来同襄亚洲振兴繁荣伟业未来同襄亚
+        洲振兴繁荣伟业学发表题为共创中在韩国国立首尔大学发学发表题为共创中在韩国国立首尔大学发学发表题为共创中在韩国国立首尔
+        大学发学发表题为共创中在韩国国立首尔大学发学发表题为共创中在韩国国立首尔大学发学发表题为共创中在韩国国立首尔大学发学
+        发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发
+        发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发
+        发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发
+        发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发
+        发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发
+        发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发
+        发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发发表题为共创中在韩国国立首尔大学发   </string>
+    <string name="loading">正在加载....</string>
+    <string name="msg_load_image_fail">图片加载失败</string>
+
+    <!-- Works -->
+    <string name="works_1">排课系统（小学版）</string>
+    <string name="works_2">小区信息管理系统</string>
+    <string name="works_3">企业档案管理系统</string>
+    <string name="works_4">采暖收费管理系统</string>
+    <string name="works_5">客户关系管理系统</string>
+
+    <!-- sina share message -->
+    <string name="OAUTH_ERROR">服务器验证失败</string>
+    <string name="OAUTH_RequestToken_ACCESS">第三方应用验证成功</string>
+    <string name="OAUTH_RequestToken_ERROR">第三方应用验证失败</string>
+    <string name="OAUTH_AccessToken_ACCESS">用户授权登录成功</string>
+    <string name="OAUTH_AccessToken_ERROR">用户授权登录失败</string>
+    <string name="OAUTH_AccessToken_SXPIRED">授权已过期，请重新授权登录</string>
+    <string name="Weibo_Message_NULL">分享数据不能为空</string>
+    <string name="Weibo_Message_LONG">已超出140个字</string>
+    <string name="Weibo_Share_Success">微博分享成功</string>
+    <string name="Weibo_Share_Error">微博分享失败</string>
+    <string name="Weibo_Share_Repeat">已经分享过了</string>
+    <string name="share">分享</string>
+    <string name="sharing">分享中...</string>
+
+</resources>

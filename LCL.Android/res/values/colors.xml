@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- top navigate item text color -->
+    <color name="color_black">#000000</color>
+    <color name="color_white">#ffffffff</color>
+    <color name="color_text_header">#B2FFE6</color>
+    <!-- top navigate item text color -->
+    <color name="color_btm_navi_txt_normal">#333333</color>
+    <color name="color_btm_navi_txt_pressed">#28b978</color>
+    <color name="color_btm_navi_txt_checked">#28b978</color>
+    <color name="color_app_bgk">#f5fafd</color>
+    <color name="color_normal_bgk">#0ae243</color>
+    <color name="color_drain_bgk">#ffd401</color>
+    <color name="color_alarm_bgk">#ff0038</color>
+    <color name="color_edit_bgk">#a6a6a6</color>
+    <color name="color_spinner_defualt">#676464</color>
+    <color name="color_text_drain">#e52626</color>
+    <color name="color_spinner_selected">#56A9EB</color>
+    <color name="color_spinner_unselected">#ffffff</color>
+    <color name="graywhite">#F5F5F5</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="color_divider">#D6E4EA</color>
+
+</resources>
